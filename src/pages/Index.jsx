@@ -21,10 +21,10 @@ const Index = () => {
       <Box id="gallery" p={4}>
         <Heading as="h2" size="xl" mb={4} textAlign="center">Gallery</Heading>
         <SimpleGrid columns={{ base: 2, md: 4 }} spacing={4}>
-          <Image src="https://via.placeholder.com/150" alt="Beyoncé Image 1"/>
-          <Image src="https://via.placeholder.com/150" alt="Beyoncé Image 2"/>
-          <Image src="https://via.placeholder.com/150" alt="Beyoncé Image 3"/>
-          <Image src="https://via.placeholder.com/150" alt="Beyoncé Image 4"/>
+          <Image src="public/images/beyonce1.jpg" alt="Beyoncé Image 1"/>
+          <Image src="public/images/beyonce2.jpg" alt="Beyoncé Image 2"/>
+          <Image src="public/images/beyonce3.jpg" alt="Beyoncé Image 3"/>
+          <Image src="public/images/beyonce4.jpg" alt="Beyoncé Image 4"/>
         </SimpleGrid>
       </Box>
       <VStack id="videos" spacing={4} p={4}>
